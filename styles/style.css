@@ -1,0 +1,138 @@
+body, header, section, main, footer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-size: 15px;
+    color: chocolate;
+}
+
+
+thead{
+    background-color: darkblue;
+    color: white;
+}
+
+tbody{
+    background-color: lightblue;
+}
+
+table{
+    border-style: solid;
+    border-color: darkblue;
+}
+
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav.top-nav {
+    background-color: indigo;
+}
+
+li.top-nav {
+    display: inline-block;
+}
+
+a.top-nav {
+    display: block;
+    padding: 20px;
+    color: white;
+}
+
+.top-nav::selection {
+    background: midnightblue;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+
+.banner-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 500%;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    max-height: 270px;
+}
+
+section div img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+main {
+    background-color: #36005e;
+    display: block;
+}
+
+article div img {
+    width: 167px;
+    height: 250px;
+    object-fit: cover;
+    padding: 35px;
+}
+
+article div h1 {
+    font-size: 30px;
+    color: white;
+    padding: 35px;
+}
+
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+footer {
+    background-color: darkslateblue;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+footer a {
+    color: white;
+}
+
+
