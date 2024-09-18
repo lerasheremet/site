@@ -4,28 +4,6 @@ body, header, section, main, footer {
     margin: 0;
 }
 
-p{
-    font-size: 15px;
-    color: chocolate;
-}
-
-
-thead{
-    background-color: darkblue;
-    color: white;
-}
-
-tbody{
-    background-color: lightblue;
-}
-
-table{
-    border-style: solid;
-    border-color: darkblue;
-}
-
-
-
 header {
     position: sticky;
     top: 0;
@@ -61,6 +39,7 @@ a.top-nav {
     display: block;
     padding: 20px;
     color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
 }
 
 .top-nav::selection {
@@ -112,6 +91,7 @@ article div h1 {
     font-size: 30px;
     color: white;
     padding: 35px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
 }
 
 
