@@ -55,6 +55,12 @@ a.top-nav {
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
 }
 
+.top-nav.login-link {
+    position: absolute;
+    right: 20px;
+    color: white;
+}
+
 .top-nav::selection {
     background: midnightblue;
 }
@@ -164,5 +170,19 @@ footer p {
 footer a {
     color: white;
 }
+
+@media screen and (max-width: 495px) {
+    article div img {
+            padding: 15px;
+        }
+    }
+
+a:hover {
+    background-color: #36005e;
+}
+
+
+
+
 
 
